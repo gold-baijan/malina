@@ -15,7 +15,6 @@ class _KorzinaScreenState extends State<KorzinaScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Color(0xfffafafb),
       body: DefaultTabController(
         initialIndex: 0,
         length: 2,
@@ -98,94 +97,3 @@ class _KorzinaScreenState extends State<KorzinaScreen> {
 
  
 
-
-// void showExampleBottomSheet(BuildContext context) {
-//   showModalBottomSheet(
-//     isScrollControlled: true,
-//     backgroundColor: Colors.amberAccent,
-//     context: context,
-//     builder: (context) {
-//       return SizedBox(
-//         height:
-//             MediaQuery.of(context).size.height * 0.95, // почти на весь экран
-//         child: Scaffold(
-//           appBar: AppBar(),
-//           body: Container(
-//             decoration: BoxDecoration(
-//               image: DecorationImage(
-//                 image: AssetImage('assets/images/add_background.svg'),
-//               ),
-//             ),
-//             child: Column(children: [Container(height: 442)]),
-//           ),
-//         ),
-//       );
-//     },
-//   );
-// }
-
-
-
-
-
-
-
-
-
-
-
-      // Column(
-      //   children: [
-      //     Row(
-      //       mainAxisAlignment: MainAxisAlignment.center,
-      //       children: [
-      //         // Белая кнопка с серой обводкой (неактивная)
-      //         Expanded(
-      //           child: Padding(
-      //             padding: const EdgeInsets.only(left: 20),
-      //             child: Container(
-      //               height: 48,
-      //               margin: EdgeInsets.only(right: 8),
-      //               child: OutlinedButton(
-      //                 onPressed: () {},
-      //                 style: OutlinedButton.styleFrom(
-      //                   shape: StadiumBorder(),
-      //                   side: BorderSide(color: Colors.grey.shade300),
-      //                   backgroundColor: Colors.white,
-      //                 ),
-      //                 child: Text('Еда', style: TextStyle(color: Colors.black)),
-      //               ),
-      //             ),
-      //           ),
-      //         ),
-
-      //         // Розовая кнопка (активная)
-      //         Expanded(
-      //           child: Padding(
-      //             padding: const EdgeInsets.only(right: 20),
-      //             child: Container(
-      //               height: 48,
-      //               margin: EdgeInsets.only(left: 8),
-      //               child: ElevatedButton(
-      //                 onPressed: () {},
-      //                 style: ElevatedButton.styleFrom(
-      //                   shape: StadiumBorder(),
-      //                   backgroundColor: Color(0xFFFF2D55), // Ярко-розовый цвет
-      //                   elevation: 0,
-      //                 ),
-      //                 child: Text(
-      //                   'Бьюти',
-      //                   style: TextStyle(color: Colors.white),
-      //                 ),
-      //               ),
-      //             ),
-      //           ),
-      //         ),
-      //       ],
-      //     ),
-      //     // SingleChildScrollView(
-      //     //   scrollDirection: Axis.horizontal,
-      //     //   child: Container(),
-      //     // ),
-      //   ],
-      // ),

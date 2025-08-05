@@ -30,6 +30,11 @@ class MyBottomNavBar extends StatelessWidget {
         topRight: Radius.circular(24),
       ),
       child: BottomNavigationBar(
+        onTap: (index) => _handleTap(context, index),
+        currentIndex: currentIndex,
+        type: BottomNavigationBarType.fixed,
+        unselectedIconTheme: IconThemeData(color: Colors.grey),
+        selectedIconTheme: IconThemeData(color: Colors.red),
         selectedItemColor: Color(0xffF72055),
         unselectedItemColor: Color(0xffAAAAAA),
         elevation: 10,
@@ -92,11 +97,6 @@ class MyBottomNavBar extends StatelessWidget {
             label: 'Корзине',
           ),
         ],
-        onTap: (index) => _handleTap(context, index),
-        currentIndex: currentIndex,
-        type: BottomNavigationBarType.fixed,
-        unselectedIconTheme: IconThemeData(color: Colors.grey),
-        selectedIconTheme: IconThemeData(color: Colors.red),
       ),
     );
   }
