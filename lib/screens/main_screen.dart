@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malina_test/widgets/main_comtent.dart';
+import 'package:malina_test/widgets/main_content.dart';
 import 'package:malina_test/widgets/my_app_bar.dart';
 
 class MainScreen extends StatefulWidget {

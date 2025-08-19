@@ -4,7 +4,7 @@ class LentaCard extends StatelessWidget {
   final String title;
   final String subtitle;
   final String imagePath;
-  final Color? overlayColor; // необязательный параметр
+  final Color? overlayColor;
 
   const LentaCard({
     super.key,

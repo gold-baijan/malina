@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:malina_test/controller/login_controller.dart';
+import 'package:malina_test/controller/login_contraller.dart';
+import 'package:malina_test/data/accounts.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -16,11 +17,11 @@ class _LoginScreenState extends State<LoginScreen> {
   String? _passwordError;
   bool _obscurePassword = true;
 
-  final List<Map<String, String>> _validAccounts = [
-    {'email': 'user1@example.com', 'password': 'password123'},
-    {'email': 'test@example.com', 'password': 'qwerty123'},
-    {'email': 'demo@demo.com', 'password': 'demopass8'},
-  ];
+  // final List<Map<String, String>> validAccounts = [
+  //   {'email': 'user1@example.com', 'password': 'password123'},
+  //   {'email': 'test@example.com', 'password': 'qwerty123'},
+  //   {'email': 'demo@demo.com', 'password': 'demopass8'},
+  // ];
 
   @override
   Widget build(BuildContext context) {
@@ -97,7 +98,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   context: context,
                   emailController: _emailController,
                   passwordController: _passwordController,
-                  validAccounts: _validAccounts,
+                  validAccounts: validAccounts,
                   onValidationResult: (emailError, passwordError) {
                     setState(() {
                       _emailError = emailError;

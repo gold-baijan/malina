@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="malina_test"
+        android:label="malina"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

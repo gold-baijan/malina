@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malina_test/screens/korzina_screen.dart';
+import 'package:malina_test/screens/korzina_main_screen.dart';
 import 'package:malina_test/screens/main_screen.dart';
 import 'package:malina_test/screens/profile_screen.dart';
 import 'package:malina_test/screens/qr_scanner_screen.dart';

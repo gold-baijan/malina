@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:malina_test/widgets/categories.dart';
-import 'package:malina_test/widgets/qr_concainer.dart';
+import 'package:malina_test/widgets/qr_container.dart';
 import 'package:malina_test/widgets/soon.dart';
 
 class MainContent extends StatelessWidget {

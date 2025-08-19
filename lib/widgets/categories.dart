@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malina_test/widgets/lenta_card.dart';
+import 'package:malina_test/widgets/lennta_content.dart';
 
 class CategoriesRow extends StatelessWidget {
   const CategoriesRow({super.key});
@@ -14,7 +14,6 @@ class CategoriesRow extends StatelessWidget {
               title: 'Еда',
               subtitle: 'Из кафе и \nресторанов',
               imagePath: 'assets/images/food.png',
-              // overlayColor: Color(0xffFFDF94),
             ),
           ],
         ),
